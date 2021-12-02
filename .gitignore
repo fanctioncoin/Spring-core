@@ -1,0 +1,6 @@
+*.jpr
+*.iml
+*.class
+*.log
+/.idea
+/target
