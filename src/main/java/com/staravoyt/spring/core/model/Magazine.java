@@ -18,4 +18,5 @@ public class Magazine extends Product {
         super(id, name, description, price);
         this.listOfSensation = listOfSensation;
     }
+    ---------------------This test------------------
 }
