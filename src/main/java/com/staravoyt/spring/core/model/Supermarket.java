@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Data
@@ -17,6 +18,7 @@ public class Supermarket implements PrintData
     private String name;
     @Autowired
     @CustomStringQualifier(name="detective")
+    @Primary()
     private Book book;
 
 }
