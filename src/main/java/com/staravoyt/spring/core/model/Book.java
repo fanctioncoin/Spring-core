@@ -21,4 +21,10 @@ public class Book extends Product {
         System.out.println("Slava");
 
     }
+//     public Book(int id, String name, String description, int price, String binding) {
+//         super(id, name, description, price);
+//         this.binding = binding;
+//     }
+//     Test
+
 }
