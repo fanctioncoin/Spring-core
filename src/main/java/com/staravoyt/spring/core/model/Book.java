@@ -11,20 +11,6 @@ import org.springframework.stereotype.Component;
 @NoArgsConstructor
 @AllArgsConstructor
 @Component
-public class Slava extends Product {
-    private String binding; // Attribute указывающий на переплет книги
 
-    public Slava(int id, String name, String description, int price, String binding) {
-        super(id, name, description, price);
-        this.binding = binding;
-
-        System.out.println("Slava");
-
-    }
-//     public Book(int id, String name, String description, int price, String binding) {
-//         super(id, name, description, price);
-//         this.binding = binding;
-//     }
-//     Test
 
 }
