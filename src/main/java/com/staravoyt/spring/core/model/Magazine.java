@@ -14,8 +14,8 @@ import java.util.List;
 public class Magazine extends Product {
     private List<String> listOfSensation; // Список сенсаций в журнале
 
-    public Magazine(int id, String name, String description, int price, List<String> listOfSensation) {
-        super(id, name, description, price);
-        this.listOfSensation = listOfSensation;
+//     public Magazine(int id, String name, String description, int price, List<String> listOfSensation) {
+//         super(id, name, description, price);
+//         this.listOfSensation = listOfSensation;
     }
 }
