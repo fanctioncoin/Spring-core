@@ -14,10 +14,10 @@ import org.springframework.stereotype.Component;
 public class Book extends Product {
     private String binding; // Attribute указывающий на переплет книги
 
-    public Book(int id, String name, String description, int price, String binding) {
-        super(id, name, description, price);
-        this.binding = binding;
-    }
-    Test
+//     public Book(int id, String name, String description, int price, String binding) {
+//         super(id, name, description, price);
+//         this.binding = binding;
+//     }
+//     Test
 
 }
