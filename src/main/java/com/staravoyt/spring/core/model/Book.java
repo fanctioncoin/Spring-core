@@ -18,5 +18,6 @@ public class Book extends Product {
         super(id, name, description, price);
         this.binding = binding;
     }
+    Test
 
 }
